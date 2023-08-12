@@ -38,3 +38,7 @@ const c2:string[] = ['c3','c4'];
 const c3 = [...c1,...c2];
 
 console.log(c3);
+
+
+//union type
+let rt : number|string;//can be of type number and string both
