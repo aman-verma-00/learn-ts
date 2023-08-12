@@ -39,3 +39,17 @@ console.log(cars);
 const tupleData : [string,number,string,number] = ['a',1,'b',2];
 //destructuring or arrays and tuple
 const[a,b,c,d]=tupleData;
+
+
+let temo:unknown;
+temo='';
+temo=0
+temo=true;
+temo='aman';
+
+if(typeof temo==='string'){
+    console.log(temo.length);
+    console.log('type is string');
+}else if(typeof temo==='boolean'){
+    console.log('type is boolean')
+}

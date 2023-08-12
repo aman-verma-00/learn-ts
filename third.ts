@@ -17,6 +17,7 @@ type Student = {
 const s1:Student = {
     name : 'aman',
     gender : 'm'
+//  readonly  gender : 'm' //can only read  can not assign again any value
 };
 const s2:Student = {
     name : 'ashish',
